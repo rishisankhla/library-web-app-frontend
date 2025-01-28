@@ -1,0 +1,37 @@
+/* Sign Up Mode Transitions */
+.login_container.sign-up-mode:before {
+  transform: translate(100%, -50%);
+  right: 52%;
+}
+
+.login_container.sign-up-mode .left-panel .image,
+.login_container.sign-up-mode .left-panel .content {
+  transform: translateX(-800px);
+}
+
+.login_container.sign-up-mode .signin-signup {
+  left: 25%;
+}
+
+.login_container.sign-up-mode form.sign-up-form {
+  opacity: 1;
+  z-index: 2;
+}
+
+.login_container.sign-up-mode form.sign-in-form {
+  opacity: 0;
+  z-index: 1;
+}
+
+.login_container.sign-up-mode .right-panel .image,
+.login_container.sign-up-mode .right-panel .content {
+  transform: translateX(0%);
+}
+
+.login_container.sign-up-mode .left-panel {
+  pointer-events: none;
+}
+
+.login_container.sign-up-mode .right-panel {
+  pointer-events: all;
+}

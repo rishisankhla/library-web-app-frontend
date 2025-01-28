@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+
+/* Import all CSS modules */
+@import './styles/base.css';
+@import './styles/components/buttons.css';
+@import './styles/components/forms.css';
+@import './styles/components/input-fields.css';
+@import './styles/components/messages.css';
+@import './styles/components/panels.css';
+@import './styles/components/mobile-nav.css';
+@import './styles/components/table-animations.css';
+@import './styles/layout/container.css';
+@import './styles/animations/transitions.css';
+@import './styles/responsive/tablet.css';
+@import './styles/responsive/mobile.css';
